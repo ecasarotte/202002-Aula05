@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./eleicao.css">
+	<title>Eleição</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1>
+			Eleições
+		</h1>
+
+		<p>
+		<h2>
+			Candidatos Participando da eleição
+		</h2>
+		</p>
+
+		<div id="quadro">
+			<table>
+				<tr>
+					<td>Código do candidato: 1</td>
+					<td>Alessandro</td>
+				</tr>
+				<tr>
+					<td>Código do candidato: 2</td>
+					<td>Camara</td>
+				</tr>
+				<tr>
+					<td>Código do candidato: 3</td>
+					<td>Saito</td>
+				</tr>
+				<tr>
+					<td>Código do candidato: 4</td>
+					<td>Marçal</td>
+				</tr>
+				<tr>
+					<td>Código do candidato: 5</td>
+					<td>Edilson</td>
+				</tr>
+			</table>
+		</div>
+
+		<p>
+		<div>
+			<input type="number" id="input_voto" placeholder="Informe o código do seu candidato">
+			<button id="btn_voto">Votar</button>
+		</div>
+		</p>
+		<p>
+		<div>
+			<button id="btn_apurar_votos">Apurar Votos</button>
+		</div>
+		<div id="apurar_votos">
+			<p>
+				<label>Apuração dos votos:</label>
+			</p>
+			<p id="resultado_votos">
+				<label id="candidato1" for=""></label>
+				<label id="candidato2" for=""></label>
+				<label id="candidato3" for=""></label>
+				<label id="candidato4" for=""></label>
+				<label id="candidato5" for=""></label>
+				<label id="vencedor" for=""></label>
+				<label id="nulos" for=""> Votos nulos: </label>
+			</p>
+
+		</div>
+		</p>
+		<footer>
+			<script src="./jquery-3.5.1.js"></script>
+			<script src="./dist/eleicao.js"></script>
+		</footer>
+	</div>
+</body>
+
+</html>

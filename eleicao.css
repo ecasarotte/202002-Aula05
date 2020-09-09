@@ -1,0 +1,17 @@
+.codigo{
+    margin: auto;
+}
+
+td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#candidatos_id{
+    flex-direction: row;
+}
+
+#resultado_votos{
+    display: flex;
+    flex-direction: column;
+}
